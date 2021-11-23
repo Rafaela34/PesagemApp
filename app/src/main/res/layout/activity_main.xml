@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="847dp"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="right"
+            android:layout_margin="30dp"
+            android:layout_marginTop="32dp"
+            app:cardCornerRadius="50dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/adam" />
+
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="210dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/passagem" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="15dp"
+            android:padding="13dp"
+            android:text="Vamos nos Pesar?"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:drawableStart="@drawable/ic_baseline_info_24"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:text="Mantenha seu peso sempre atualizado, assim você poderá acompanhar sua evolução "
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="25dp"
+            android:drawableStart="@drawable/ic_baseline_accessibility_new_24"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:text="Dados de passagem"
+            android:textColor="@color/pink"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"
+            android:gravity="center_vertical"
+            android:text="Data da passagem:"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="2dp"
+            android:gravity="center_vertical"
+            android:text="10/05/2022"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"
+            android:gravity="center_vertical"
+            android:text="Nivel de atividade:"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="380dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/pink_1">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="335dp"
+                android:layout_marginTop="-35dp"
+                android:src="@drawable/ic_baseline_arrow_drop_down_24" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:text="Seu novo peso:"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="68"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="kg"
+            android:textSize="20dp"
+            android:layout_marginTop="-27dp"
+            android:layout_marginLeft="60dp"
+            />
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="2dp"
+            android:background="@color/pink"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="5dp">
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:text="Registrar peso"
+            android:padding="15dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/pink"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
